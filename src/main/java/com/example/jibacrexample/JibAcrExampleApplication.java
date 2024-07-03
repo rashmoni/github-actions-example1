@@ -11,7 +11,7 @@ public class JibAcrExampleApplication {
 
 	@GetMapping("/mesasage")
 	public String message(){
-		return "Welcome to Jib-acr-example application";
+		return "Welcome to Jib-acr-example application new";
 	}
 
 	public static void main(String[] args) {
