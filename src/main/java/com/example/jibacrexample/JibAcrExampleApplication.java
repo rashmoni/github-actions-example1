@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JibAcrExampleApplication {
 
-	@GetMapping("/mesasage")
+	@GetMapping("/message")
 	public String message(){
 		return "Welcome to Jib-acr-example application new";
 	}
